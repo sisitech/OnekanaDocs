@@ -14,3 +14,7 @@
         content: "Page " counter(page);
     }
 }
+
+body {
+    font-family: "Prompt";
+}

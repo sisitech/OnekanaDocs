@@ -19,12 +19,15 @@ The **System Summary section** provides a general overview of the system. The su
 
 ### System Summary
 System Summary section provides a general overview of the system. The summary outlines the uses of the system’s hardware and software requirements, system’s configuration, user access levels and system’s behavior in case of any contingencies.
+<div class="page"/>
 
 ####  System Configuration
 Digital Attendance operates on mobile devices with Android operating system. It is compatible with **Android version 5.1** and up. The application requires an Internet connection in order to save data to the cloud database,and also has an **offline functionality** to facilitate collection of attendance data without internet connection. **Offline mode works up to 30 days.** Data saved is visualised on a web dashboard accessible via any major Internet browser. After installation on the device, Digital Attendance can be use immediately without any further configuration.
 
 ####  User Access Levels
 Only teachers that have been registered into the system can use the application. For any assistance with credentials, kindly consult the headteacher in your school.
+
+<div class="page"/>
 
 ### Getting Started
 
@@ -38,7 +41,7 @@ The Getting Started section explains how to install the Onekana Digital Attendan
 The newest installation version currently available can be downloaded from the Google Store and is an .apk file, which should be installed on the device. <br><br>
 Login using a school's EMIS code or phone number and a password assigned to the teacher at installation level via the attached school’s or teacher’s email address. The teacher can then use these credentials to login.
 
-##### Login Screen
+#### Login Screen
 
 <p align="center">
 <img src = "./images/login.png" width="280">
@@ -46,7 +49,7 @@ Login using a school's EMIS code or phone number and a password assigned to the 
 
 Proceed with your login by inputting your school code or phone number as the username and the password sent to your email address. Click the login button to authorise the credentials.
 
-##### Forgot Password
+#### Forgot Password
 
 <p align="center">
 <img src = "./images/forgot.png" width="280">
@@ -70,7 +73,7 @@ Enter your new password and confirm the new password. Click the set new password
 <img src = "./images/reset.png" width="280">
 </p>
 
-##### Marking Attendance
+#### Marking Attendance
 
  <p align="center">
 <img src = "./images/learner.png" width="350">
@@ -87,7 +90,9 @@ A **green M** badge indicates a male learner, **green F** a female learner and a
 
 To mark a learner as present, click the red circle on the right against the learner’s name to turn it to checked. Otherwise, not clicking the circle indicates that a learner is absent. After going through the list of learners in your class, click the **‘submit’** button to complete marking attendance.
 
-###### Classes Menu 
+<div class="page"/>
+
+#### Classes Menu 
 
  <p align="center">
 <img src = "./images/class.png" width="240">
@@ -95,7 +100,7 @@ To mark a learner as present, click the red circle on the right against the lear
 
 On the top right, there’s a menu icon with a list of classes. A teacher can switch to a different classroom and mark attendance for that class room.
 
-###### Date Picker
+#### Date Picker
 
  <p align="center">
 <img src = "./images/date.png" width="300">
@@ -103,7 +108,9 @@ On the top right, there’s a menu icon with a list of classes. A teacher can sw
 
 Change the attendance date by clicking on the calendar above the list of learners.
 
-###### Daily Attendance Report
+<div class="page"/>
+
+#### Daily Attendance Report
 
  <p align="center">
 <img src = "./images/daily-report.png" width="260">
@@ -111,7 +118,9 @@ Change the attendance date by clicking on the calendar above the list of learner
 
 After marking attendance, a daily attendance report provides an overview of the marked learners status for that class. The report shows a chart of present vs absent learners and these numbers segmented by gender.
 
-##### My School
+<div class="page"/>
+
+#### My School
 
  <p align="center">
 <img src = "./images/my-school.png" width="260">
@@ -119,7 +128,7 @@ After marking attendance, a daily attendance report provides an overview of the 
 
 The My School tab enables a headteacher to manage their school. Here, they can **Add / Edit Learners**, **View More Learner Details** and **Move / Promote Learners**. In this section you can also **Add / Edit Teachers** and **Add / Edit Classrooms** to a school.
 
-###### Adding a Learner
+#### Adding a Learner
 
  <p align="center">
 <img src = "./images/add-student.png" width="300">
@@ -140,7 +149,7 @@ Click on the “+” button to add a new learner. The add learner form has a lis
 <img src = "./images/guardian-details.png" width="280">
 </p>
 
-###### Editing a Learner
+#### Editing a Learner
 
 <p align="center">
 <img src = "./images/add-student.png" width="300">
@@ -148,7 +157,7 @@ Click on the “+” button to add a new learner. The add learner form has a lis
 
 Click on the **Edit** button to update the details of a Learner.
 
-###### Deactivating a Learner
+#### Deactivating a Learner
 
 <p align="center">
 <img src = "./images/add-student.png" width="300">
@@ -163,7 +172,7 @@ Deactivate Learner by clicking on the "Deactivate" button.
 
 You will receive a pop up that prompts for submission of a reason of deactivation for the learner. Select the correct reason and click on "Deactivate".
 
-##### View Learner Details
+#### View Learner Details
 
 <p align="center">
 <img src = "./images/learners-section.png" width="300">
@@ -179,7 +188,9 @@ View an attendance chart of the current attendance status of the learner and a p
 <img src = "./images/details-list.png" width="300">
 </p>
 
-###### View Attendance Chart
+<div class="page"/>
+
+#### View Attendance Chart
 
 <p align="center">
 <img src = "./images/chart.png" width="300">
@@ -187,7 +198,9 @@ View an attendance chart of the current attendance status of the learner and a p
 
 The weekly attendance chart shows a weekly attendance overview of an individual learner, the days present against the days of absent. The retention rate is the probability value calculated by the number of days the learner was present while the dropout rate is the probability of dropping out calculated on absenteeism.
 
-###### Contact Guardian
+<div class="page"/>
+
+#### Contact Guardian
 
 <p align="center">
 <img src = "./images/call-guardian.png" width="300">
@@ -195,7 +208,7 @@ The weekly attendance chart shows a weekly attendance overview of an individual 
 
 Incase of an emergency or need to follow up on a learner with their guardian, click on the **phone** icon to place a call.  
 
-##### Move Learners
+#### Move Learners
 
 <p align="center">
 <img src = "./images/move-learners.png" width="300">
@@ -211,7 +224,9 @@ The Move Learners tab enables moving of learners from one class to another. Sele
 <img src = "./images/move-learners-popup.png" width="300">
 </p>
 
-##### Promote Learners
+<div class="page"/>
+
+#### Promote Learners
 
 <p align="center">
 <img src = "./images/promote.png" width="300">
@@ -219,8 +234,8 @@ The Move Learners tab enables moving of learners from one class to another. Sele
 
 Graduate learners to the next grade at the end of the year. This feature works to promote all learners to the next grade once. **Be careful** when promoting learners.
 
-##### Teachers
-###### Add Teachers
+#### Teachers
+#### Add Teachers
 
 <p align="center">
 <img src = "./images/teachers.png" width="300">
@@ -238,7 +253,7 @@ Fill the teacher details and submit the information by clicking the **Add Teache
 <img src = "./images/teacher-list.png" width="300">
 </p>
 
-###### Edit Teachers
+#### Edit Teachers
 
 <p align="center">
 <img src = "./images/edit-teacher.png" width="300">
@@ -250,7 +265,7 @@ Update the details of your exiting teacher by clicking the **Edit** button and u
 <img src = "./images/update-teacher.png" width="300">
 </p>
 
-###### Deactivate Teachers
+#### Deactivate Teachers
 
 Deactivate a teacher from the system by clicking on the **Deactivate** button.
 
@@ -262,9 +277,9 @@ Deactivate a teacher from the system by clicking on the **Deactivate** button.
 <img src = "./images/delete-teacher.png" width="300">
 </p>
 
-##### Classes
+#### Classes
 
-###### Add Classes
+#### Add Classes
 
 <p align="center">
 <img src = "./images/classes.png" width="300">
@@ -286,7 +301,7 @@ Click on the add button to fill in the details of the new class you want to add.
 <img src = "./images/add-class.png" width="300">
 </p>
 
-###### Edit Classes
+#### Edit Classes
 
 <p align="center">
 <img src = "./images/edit-class.png" width="300">
@@ -295,7 +310,7 @@ Click on the add button to fill in the details of the new class you want to add.
 Update the details of your exiting classes by clicking the **Edit** button and updating your form. 
 
 
-###### Decativate Classes
+#### Decativate Classes
 
 <p align="center">
 <img src = "./images/deactivate-class.png" width="300">
@@ -303,7 +318,9 @@ Update the details of your exiting classes by clicking the **Edit** button and u
 
 Deactivate a class from the system by clicking on the **Deactivate** button.
 
-##### Reports
+<div class="page"/>
+
+#### Reports
 
 <p align="center">
 <img src = "./images/reports.png" width="300">
@@ -311,7 +328,7 @@ Deactivate a class from the system by clicking on the **Deactivate** button.
 
 The Reports tab allows the head teacher to view an aggregated list of student attendance perfomance per class, based on gender. Head-teacher's can also view on a daily basis a list of often absent students from every class on a certain date and provide a reason for absence for missing school.
 
-###### View Absent Student Details
+#### View Absent Student Details
 
 <p align="center">
 <img src = "./images/absent-list.png" width="300">
@@ -327,9 +344,9 @@ A list of frequently absent student can be found at the bottom of the page. Prov
 <img src = "./images/reasons-absence.png" width="300">
 </p>
 
-##### Profile
+#### Profile
 
-###### User Profile
+#### User Profile
 
 <p align="center">
 <img src = "./images/user-profile.png" width="300">
@@ -337,7 +354,9 @@ A list of frequently absent student can be found at the bottom of the page. Prov
 
 The user profile tab allows the user to change their password, view notifications, sync off-line attendance with the database, update the latest class list as well as logging out and accessing the help pages.
 
-###### Edit Password
+<div class="page"/>
+
+#### Edit Password
 
 <p align="center">
 <img src = "./images/edit-password.png" width="300">
@@ -345,13 +364,15 @@ The user profile tab allows the user to change their password, view notification
 
 In the User Profile tab, click on the Edit Password option. This will provide fields to enter the current password and the new password. Enter the current password and the new password respectively and click on the Login button.
 
-###### Application Settings
+#### Application Settings
 
 <p align="center">
 <img src = "./images/application-settings.png" width="300">
 </p>
 
-###### Attendance Status
+<div class="page"/>
+
+#### Attendance Status
 
 <p align="center">
 <img src = "./images/attendance-status.png" width="300">
@@ -359,7 +380,9 @@ In the User Profile tab, click on the Edit Password option. This will provide fi
 
 A user can sync attendance data taken in off-line mode to the online database by navigating to the user profile tab and clicking “Attendance Status”.
 
-###### Update Learners List
+<div class="page"/>
+
+#### Update Learners List
 
 <p align="center">
 <img src = "./images/update-learners.png" width="300">
@@ -367,7 +390,7 @@ A user can sync attendance data taken in off-line mode to the online database by
 
 This enables a teacher to manually sync to the latest learners list in the school. Click on the **Download Latest Class List** button to sync with the latest list of student in your school.*** Do this incase you perform offline learner enrolment with different devices. ***
 
-###### Help & Support 
+#### Help & Support 
 
 <p align="center">
 <img src = "./images/help.png" width="300">
@@ -376,7 +399,7 @@ This enables a teacher to manually sync to the latest learners list in the schoo
 Access a list of frequently asked questions and
 a user manual with more information on how to operate the Onekana Digital Attendance System.
 
-###### Contact Us
+#### Contact Us
 
 <p align="center">
 <img src = "./images/contact-us.png" width="300">
@@ -388,7 +411,7 @@ Click on the **Contact Us** button to get a form to submit any issues/queries an
 <img src = "./images/contact-support.png" width="300">
 </p>
 
-###### Download User Manual
+#### Download User Manual
 
 <p align="center">
 <img src = "./images/contact-us.png" width="300">
@@ -396,7 +419,7 @@ Click on the **Contact Us** button to get a form to submit any issues/queries an
 
 Download a PDF version of this user manual by clicking on the **Download User Manual** button. 
 
-###### Logout
+#### Logout
 
 <p align="center">
 <img src = "./images/logout.png" width="300">
