@@ -2,19 +2,19 @@
 
 <img src = "./images/onekana-banner.png">
 
-## Mobile Application
-
-### System Overview
-Onekana Digital attendance is an application that allows teachers to digitally record pupils’ class attendance. The application submits the data to an online cloud storage. 
-
 ### Organisation of the Manual
 The user’s manual consists of five sections:
 
-- System Summary
-- Getting Started
-- Using The System
-- Reporting
-- Web Dashboard
+- [Mobile Application](#mobile-application)
+- [System Summary](#system-summary)
+- [Getting Started](#getting-started)
+- [Using The System](#marking-attendance)
+- [Reporting](#reports)
+- [Web Dashboard](#web-dashboard)
+## Mobile Application
+### System Overview
+
+Onekana Digital attendance is an application that allows teachers to digitally record pupils’ class attendance. The application submits the data to an online cloud storage. 
 
 The **System Summary section** provides a general overview of the system. The summary outlines the uses of the system’s hardware and software requirements, system’s configuration, user access levels and system’s behavior in case of any contingencies. **Getting Started section** explains how to get Digital Attendance and install it on the device. The section presents briefly system menu. **Using The System section** provides a detailed description of system functions.**Reporting section** describes in what way information collected by the application are presented and how to access the information.
 
@@ -428,16 +428,21 @@ Download a PDF version of this user manual by clicking on the **Download User Ma
 
 To log out from the application, go to the User Profile tab and click on the Logout option.
 
+<div class="page"/>
+
 ## Web  Dashboard
 
-###### Login
+##### Login
 
 <p align="center">
 <img src = "./images/login-web.png" width="400">
 </p>
 
 Onekana Digital Attendance's dashboard is hosted at [Onekana Dashboard](https://onekana.naconek.ke/). Enter your login credentials to access the dashboard.
-###### Dashboard
+
+<div class="page"/>
+
+##### Dashboard
 <p align="center">
 <img src = "./images/dashboard.png" width="800">
 </p>
@@ -454,8 +459,9 @@ The dashboard consists of 7 naviagation items :-
 |Reports | Generate enrolment and attendance reports as well as download Excel reports for offline use and data analysis.|
 |Settings | View the logged in user profile as well as change their password.|
 
+<div class="page"/>
 
-###### Home
+##### Home
 
 <p align="center">
 <img src = "./images/home-nav.png" width="200">
@@ -479,13 +485,15 @@ View a chart summary of learner enrolment by class.
 <img src = "./images/home3.png" width="500">
 </p>
 
+<div class="page"/>
+
 View a chart summary of learner enrolment data by gender.  
 
 <p align="center">
 <img src = "./images/home4.png" width="300">
 </p>
 
-###### Schools
+##### Schools
 
 <p align="center">
 <img src = "./images/schools-nav.png" width="200">
@@ -514,7 +522,7 @@ View current schools details. Filter by sub county to search for your school. Yo
 <img src = "./images/add-school2.png" width="800">
 </p>
 
-###### Classes
+##### Classes
 
 <p align="center">
 <img src = "./images/classes-nav.png" width="200">
@@ -532,13 +540,17 @@ Add details of a new class to add it to the Onekana dashboard.The details includ
 <img src = "./images/classes1.png" width="800">
 </p>
 
+<div class="page"/>
+
 View all the classes added to a school by filtering by school. You can also delete a class. 
 
 <p align="center">
 <img src = "./images/classes2.png" width="400">
 </p>
 
-###### Teachers
+<div class="page"/>
+
+##### Teachers
 
 <p align="center">
 <img src = "./images/teachers-nav.png" width="200">
@@ -570,7 +582,9 @@ View teacher details by filtering the teacher's school sub county and searching 
 <img src = "./images/teacher2.png" width="800">
 </p>
 
-###### Learners
+<div class="page"/>
+
+##### Learners
 
 <p align="center">
 <img src = "./images/learners-nav.png" width="200">
@@ -609,7 +623,9 @@ View added learners details filtered and grouped by county, sub county, class, s
 <img src = "./images/learner2.png" width="800">
 </p>
 
-###### Reports
+<div class="page"/>
+
+##### Reports
 
 <p align="center">
 <img src = "./images/reports-nav.png" width="200">
@@ -631,7 +647,7 @@ The downloads page shows a list of all previously exported report summaries as w
 <img src = "./images/report3.png" width="800">
 </p>
 
-###### Settings
+##### Settings
 
 <p align="center">
 <img src = "./images/settings-nav.png" width="200">
@@ -647,7 +663,7 @@ The profile settings show details of the logged in user and allows the changing 
 <img src = "./images/settings2.png" width="800">
 </p>
 
-###### Full Screen Mode
+##### Full Screen Mode
 
 <p align="center">
 <img src = "./images/full.png" width="200">
@@ -655,10 +671,34 @@ The profile settings show details of the logged in user and allows the changing 
 
 Use fullscreen mode on the top right of the navigation menu to hide and unhide the toolbar, creating more space to view your data. 
 
-###### Logout
+<div class="page"/>
+
+##### Logout
 
 <p align="center">
 <img src = "./images/signout.png" width="200">
 </p>
 
 Logout by clicking on the user icon in the top right of the navigation bar. 
+
+<div class="page"/>
+
+
+<p align="center">
+<img src = "./images/naconek.png" width="150">
+</p>
+
+<p align="center">
+<img src = "./images/unicef-logo.png" width="150">
+</p>
+
+<p align="center">
+<img src = "./images/educate-a-child.png" width="150">
+</p>
+
+<p align="center">
+<img src = "./images/sisitech-logo.png" width="150">
+</p>
+
+
+
