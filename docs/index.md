@@ -1,7 +1,6 @@
 # Welcome to Onekana Online Manual
 
 <img src = "./images/onekana-banner.png">
-
 ## Mobile Application
 
 ### System Overview
@@ -42,7 +41,7 @@ Login using a school's EMIS code or phone number and a password assigned to the 
 ##### Login Screen
 
 <p align="center">
-<img src = "./images/login.png" width="280">
+<img src = "./images/login-mobile.png" width="280">
 </p>
 
 Proceed with your login by inputting your school code or phone number as the username and the password sent to your email address. Click the login button to authorise the credentials.
@@ -56,7 +55,7 @@ Proceed with your login by inputting your school code or phone number as the use
 In the case of a forgotten password, click the Forgot Password button on the login page and enter your school code or phone number in the Forgot Password screen.
 
 <p align="center">
-<img src = "./images/forgot-pass.png" width="280">
+<img src = "./images/forgot-new.png" width="280">
 </p>
 
  Once successful, enter the reset code sent to your email address. Here is a sample email. 
@@ -77,13 +76,13 @@ Enter your new password and confirm the new password. Click the set new password
 <img src = "./images/learner.png" width="350">
 </p>
 
-The attendance tab contains a list of learners with their name, UPI number / Admission number and an indicator of their gender or any special needs the learner might have. 
+The attendance tab contains a list of learners with their name, UPI number / Admission number, and an indicator of their gender or any special needs the learner might have. 
 
 
-A **green M** badge indicates a male learner, **green F** a female learner and a **green SNE** illustrates a learner with special needs. 
+A **green M** badge indicates a male learner, **green F** a female learner, and a **green LWD** illustrates a learner with disability/special needs. 
 
  <p align="center">
-<img src = "./images/attendance.png" width="280">
+<img src = "./images/attendance-new.png" width="280">
 </p>
 
 To mark a learner as present, click the red circle on the right against the learner’s name to turn it to checked. Otherwise, not clicking the circle indicates that a learner is absent. After going through the list of learners in your class, click the **‘submit’** button to complete marking attendance.
@@ -107,7 +106,7 @@ Change the attendance date by clicking on the calendar above the list of learner
 ###### Daily Attendance Report
 
  <p align="center">
-<img src = "./images/daily-report.png" width="260">
+<img src = "./images/daily-report-new.png" width="260">
 </p>
 
 After marking attendance, a daily attendance report provides an overview of the marked learners status for that class. The report shows a chart of present vs absent learners and these numbers segmented by gender.
@@ -170,20 +169,27 @@ You will receive a pop up that prompts for submission of a reason of deactivatio
 <img src = "./images/learners-section.png" width="300">
 </p>
 
-View an attendance chart of the current attendance status of the learner and a phone call support feature as a means to reach a guardian. Clicking on **View Learner Details** will open a page with a list of learners displaying the learner's **name**, the **UPI/Admission Number**, a link to **View Attendance Chart** and a **Phone** Guardian button.
+View a learner's enrolment information, attendance chart of the recent attendance status and a phone call support feature as a means to reach a guardian. Clicking on **View Learner Details** will open a page with a list of learners displaying the learner's **name**, the **UPI/Admission Number**, a link to **View Attendance Chart** and a **Phone** Guardian button.
 
 <p align="center">
-<img src = "./images/view-individual-student.png" width="300">
+<img src = "./images/view-individual-student-new.png" width="300">
 </p>
 
 <p align="center">
-<img src = "./images/details-list.png" width="300">
+<img src = "./images/details-list-new.png" width="300">
 </p>
+
+###### View Learner's Enrolment Metadata
+
+<p align="center">
+<img src = "./images/enrolment-metadata-new.png" width="300">
+</p>
+
 
 ###### View Attendance Chart
 
 <p align="center">
-<img src = "./images/chart.png" width="300">
+<img src = "./images/chart-new.png" width="300">
 </p>
 
 The weekly attendance chart shows a weekly attendance overview of an individual learner, the days present against the days of absent. The retention rate is the probability value calculated by the number of days the learner was present while the dropout rate is the probability of dropping out calculated on absenteeism.
@@ -307,7 +313,7 @@ Deactivate a class from the system by clicking on the **Deactivate** button.
 ##### Reports
 
 <p align="center">
-<img src = "./images/reports.png" width="300">
+<img src = "./images/reports-new.png" width="300">
 </p>
 
 The Reports tab allows the head teacher to view an aggregated list of student attendance perfomance per class, based on gender. Head-teacher's can also view on a daily basis a list of often absent students from every class on a certain date and provide a reason for absence for missing school.
@@ -349,18 +355,18 @@ In the User Profile tab, click on the Edit Password option. This will provide fi
 ###### Application Settings
 
 <p align="center">
-<img src = "./images/application-settings.png" width="300">
+<img src = "./images/application-settings-new.png" width="300">
 </p>
 
-###### Attendance Status
+###### Offline Attendance Status
 
 <p align="center">
-<img src = "./images/attendance-status.png" width="300">
+<img src = "./images/attendance-status-new.png" width="300">
 </p>
 
 A user can sync attendance data taken in off-line mode to the online database by navigating to the user profile tab and clicking “Attendance Status”.
 
-###### Update Learners List
+###### Offline Enrolment Status
 
 <p align="center">
 <img src = "./images/update-learners.png" width="300">
@@ -416,10 +422,10 @@ To log out from the application, go to the User Profile tab and click on the Log
 Onekana Digital Attendance's dashboard is hosted at [Onekana Dashboard](https://onekana.naconek.ke/). Enter your login credentials to access the dashboard.
 ###### Dashboard
 <p align="center">
-<img src = "./images/dashboard.png" width="800">
+<img src = "./images/dashboard-new.png" width="800">
 </p>
 
-The dashboard consists of 7 naviagation items :- 
+The dashboard consists of 7 navigation items:- 
 
 | Item | Description |
 | :------ | :------ |
@@ -429,6 +435,7 @@ The dashboard consists of 7 naviagation items :-
 |Teachers | Add a new teacher to a school and view details of previously added teachers. You can also reset the teachers password.|
 |Learners | Add a new learner to a school and view details of previously added learners.|
 |Reports | Generate enrolment and attendance reports as well as download Excel reports for offline use and data analysis.|
+|Imports | Clean and bulk upload your excel data sheets to the dashboard. |
 |Settings | View the logged in user profile as well as change their password.|
 
 
@@ -444,11 +451,21 @@ View a card summary of learner enrolment data by gender.
 <img src = "./images/home1.png" width="800">
 </p>
 
-View a chart summary of monthly and annual attendance data.  
+View a chart summary of daily, monthly and annual attendance data.  
 
 <p align="center">
-<img src = "./images/home2.png" width="500">
+<img src = "./images/daily-new.png" width="300">
 </p>
+
+<p align="center">
+<img src = "./images/monthly-new.png" width="300">
+</p>
+
+
+<p align="center">
+<img src = "./images/annual-new.png" width="300">
+</p>
+
 
 View a chart summary of learner enrolment by class.  
 
@@ -465,27 +482,10 @@ View a chart summary of learner enrolment data by gender.
 ###### Schools
 
 <p align="center">
-<img src = "./images/schools-nav.png" width="200">
+<img src = "./images/schools-nav-new.png" width="200">
 </p>
 
-
-Add details of a new school to add it to the Onekana dashboard.The details include :- 
-
-| Item | Required | Description |
-| :------ | :------ | :------ |
-|School Name | Yes | Provide the name of the school|
-|School's EMIS Code | Yes | Provide the school's unique EMIS code|
-|Phone Number| Yes | Provide the phone number to access the headteacher of the school|
-|Email Address| No | Provide the email address of the school |
-|School Category| No |Select between rural and urban |
-|School Type | No |Select between male, female and mixed |
-|School Sub County | No | Select the school's sub county |
-
-<p align="center">
-<img src = "./images/add-school.png" width="800">
-</p>
-
-View current schools details. Filter by sub county to search for your school. You can also export the summary of the data. 
+View current schools details. Filter by sub-county to search for your school. You can also export the summary of the data. 
 
 <p align="center">
 <img src = "./images/add-school2.png" width="800">
@@ -506,10 +506,10 @@ Add details of a new class to add it to the Onekana dashboard.The details includ
 |Stream | No | Add a description for your base class i.e. East, West etc|
 
 <p align="center">
-<img src = "./images/classes1.png" width="800">
+<img src = "./images/classes1-new.png" width="800">
 </p>
 
-View all the classes added to a school by filtering by school. You can also delete a class. 
+View all the classes added to a school by filtering by school. You can also edit and delete a class. 
 
 <p align="center">
 <img src = "./images/classes2.png" width="400">
@@ -602,10 +602,52 @@ Select to view and generate either enrolment or attendance data reports. Filter 
 <img src = "./images/report2.png" width="800">
 </p>
 
+###### Attendance Reports
+
+<p align="center">
+<img src = "./images/attendance-report-new.png" width="800">
+</p>
+
 The downloads page shows a list of all previously exported report summaries as well as queued reports. Click the download button to download an excel report summary. 
 
 <p align="center">
-<img src = "./images/report3.png" width="800">
+<img src = "./images/downloads-new.png" width="800">
+</p>
+
+###### Imports
+
+<p align="center">
+<img src = "./images/imports-new.png" width="200">
+</p>
+
+###### Data Cleaning
+
+Data cleaning is the first step in the data importation process. It is always advisable to start by cleaning your data.Download the template data sheet, populate your data and upload your data sheet. Data uploaded in the cleaning stage is not imported. Once clean and verified, navigate to the 'Data Importation' section and upload your data. 
+
+<p align="center">
+<img src = "./images/data-cleaning.png" width="800">
+</p>
+
+###### Import Data Sheet
+
+<p align="center">
+<img src = "./images/add-import.png" width="300">
+</p>
+
+###### Import Help Popup
+
+<p align="center">
+<img src = "./images/import-help.png" width="500">
+</p>
+
+###### Data Importation
+
+<p align="center">
+<img src = "./images/data-import-new.png" width="800">
+</p>
+
+<p align="center">
+<img src = "./images/import-add-new.png" width="500">
 </p>
 
 ###### Settings
